@@ -1,6 +1,8 @@
 # hmsc-container
 Container recipe for Hierarchical Modelling of Species Communities (HMSC)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20664829.svg)](https://doi.org/10.5281/zenodo.20664829)
+
 Apptainer container to run [hmsc-hpc](https://github.com/aniskhan25/hmsc-hpc) (Gibbs sampler for HMSC models) on Olivia's ARM GPU nodes (Grace-Hopper).
 
 ## Files
