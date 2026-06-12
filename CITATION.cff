@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: hmsc-container
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Jean
+    family-names: Iaquinta
+url: "https://github.com/j34ni/hmsc-container"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20664829
+repository-code: "https://github.com/j34ni/hmsc-container"
+abstract: >-
+  Apptainer/Docker container for running hmsc-hpc
+  (Hierarchical Modelling of Species Communities,
+  GPU-accelerated Gibbs sampler) on Olivia's ARM GPU
+  nodes (Grace-Hopper).
+license: MIT
+version: 0.1.8
+date-released: "2026-06-12"
