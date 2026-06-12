@@ -19,13 +19,13 @@ Apptainer container to run [hmsc-hpc](https://github.com/aniskhan25/hmsc-hpc) (G
 
 ## Getting the container image
 
-The image is published at `ghcr.io/j34ni/hmsc-hpc-aarch64:0.1.8`, and it cane be pulled directly using:
+The image is published at `ghcr.io/j34ni/hmsc-hpc-aarch64:0.1.8`, and it can be pulled directly using:
 
 ```
 apptainer pull --arch arm64 docker://ghcr.io/j34ni/hmsc-hpc-aarch64:0.1.8
 ```
 
-The `.sif` file is also provided iavailable in the shared folder on Olivia (`/cluster/work/support/container/hmsc-hpc-aarch64_0.1.8.sif`).
+The `.sif` file is also available in a shared folder on Olivia (`/cluster/work/support/container/hmsc-hpc-aarch64_0.1.8.sif`).
 
 ## Usage
 
