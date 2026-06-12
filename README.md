@@ -72,5 +72,5 @@ The container was tested with a real init file (200 samples, thin=100, transient
 - The container builds for both `aarch64` and `x86-64` architectures and was used on Olivia's Grace-Hopper GPU nodes with Apptainer (example above) but also with Docker and without GPUs using:
 
 ```
-docker run -it --rm -v $PWD:/workdir hmsc-hpc-x86_64:0.1.8 python3 -m hmsc.run_gibbs_sampler --input "your_init_file.rds" --output "chain_output" --samples 200 --thin 100 --transient 10000 --verbose 1000 --chain 0
+docker run -it --rm -v $PWD:/workdir ghcr.io/j34ni/hmsc:latest python3 -m hmsc.run_gibbs_sampler --input "your_init_file.rds" --output "chain_output" --samples 200 --thin 100 --transient 10000 --verbose 1000 --chain 0
 ```
