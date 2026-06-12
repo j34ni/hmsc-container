@@ -1,0 +1,13 @@
+numpy
+pandas
+patsy
+PyYAML
+h5py
+scipy
+ujson
+rdata
+xarray
+pyreadr
+tensorflow==2.16.1
+tf-keras==2.16.*
+tensorflow-probability[tf]==0.24.*
